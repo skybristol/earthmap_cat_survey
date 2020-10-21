@@ -18,11 +18,14 @@ URL = 'https://github.com/skybristol/earthmap_cat_survey'
 EMAIL = 'sbristol@usgs.gov'
 AUTHOR = 'Sky Bristol'
 REQUIRES_PYTHON = '>=3.8.2'
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 LICENSE = 'UNLICENSE'
 # What packages are required for this module to be executed?
 REQUIRED = [
-    # see requirements.txt,
+    "pandas"
+]
+DEPENDENCY_LINKS = [
+    "https://github.com/skybristol/pylinkedcmd#egg=dev"
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -89,6 +92,7 @@ setup(
         'console_scripts': ['app=cli:main'],
     },
     install_requires=REQUIRED,
+    dependency_links=DEPENCENCY_LINKS,
     include_package_data=True,
     license=LICENSE,
     classifiers=[
