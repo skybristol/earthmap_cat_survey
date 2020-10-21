@@ -14,7 +14,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'earthmap_cat_survey'
 DESCRIPTION = 'Processing code to format and infuse related information for CAT survey responses.'
-URL = 'https://github.com/skybristol/'
+URL = 'https://github.com/skybristol/earthmap_cat_survey'
 EMAIL = 'sbristol@usgs.gov'
 AUTHOR = 'Sky Bristol'
 REQUIRES_PYTHON = '>=3.8.2'
