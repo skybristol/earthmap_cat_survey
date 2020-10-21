@@ -18,7 +18,7 @@ URL = 'https://github.com/skybristol/earthmap_cat_survey'
 EMAIL = 'sbristol@usgs.gov'
 AUTHOR = 'Sky Bristol'
 REQUIRES_PYTHON = '>=3.8.2'
-VERSION = "0.1.0"
+VERSION = "0.0.1"
 LICENSE = 'UNLICENSE'
 # What packages are required for this module to be executed?
 REQUIRED = [
