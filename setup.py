@@ -92,7 +92,7 @@ setup(
         'console_scripts': ['app=cli:main'],
     },
     install_requires=REQUIRED,
-    dependency_links=DEPENCENCY_LINKS,
+    dependency_links=DEPENDENCY_LINKS,
     include_package_data=True,
     license=LICENSE,
     classifiers=[
